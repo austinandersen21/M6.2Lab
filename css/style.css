@@ -3,12 +3,88 @@
 }
 
 html {
+  border-top: 10px;
   font-family: sans-serif;
+  background-color: rgb(250 250 250);
+}
+
+img[alt="Top Image"]{
+  width: 100%;
+  height: 150px;
+}
+
+img[alt="Bottom Image"] {
+  width: 100%;
+  height: 150px;
+}
+
+.container {
+  margin-top: -60px;
+  margin-left: 6px;
+  padding-left: 80px;
+  padding-top: 80px;
+  position: absolute;
+  background-image: url("/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
+}
+
+.container h1 {
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: rgb(250 250 250);
+  text-shadow: 1px 1px 1px black;
+}
+
+.title {
+  padding-top: 150pt;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+
+.bar {
+  background-color: black;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(
+    0.99turn, lightgrey, grey, lightgrey
+  );
+}
+
+Content.left {
+  column-count: 2;
+  margin-right: 150px;
+}
+
+Content.right {
+
 }
 
 body {
+  border-top: 1mm;
+  border-bottom: 1mm;
+  border-color:aquamarine;
   margin: 0;
-  background: #ccc;
+  background: white;
+}
+
+q {
+  text-align: center;
+  display: block;
+  
+}
+
+.First-Quote {
+  font-size: 12pt;
+}
+
+.Second-Quote {
+  font-size: 10pt;
+  margin-bottom: 15pt;
 }
 
 article {
@@ -20,22 +96,10 @@ article {
 
 address {
   position: absolute;
-  bottom: 8mm;
-  right: 20mm;
+  bottom: -30mm;
+  right: -70mm;
 }
 
-h1 {
-  position: absolute;
-  top: 12mm;
-  left: 20mm;
-  width: 128px;
-  height: 128px;
-  font-size: 20px;
-  letter-spacing: 1px;
-  text-align: center;
-  padding: 44px 0;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-}
+
 
 /* Your CSS below here */
